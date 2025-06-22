@@ -13,9 +13,9 @@ export default function Dashboard({ currentUser, currentWorkspace, onLogout }) {
       case "away":
         return "bg-yellow-500"
       case "busy":
-        return "bg-red-200"
+        return "bg-red-800"
       case "offline":
-        return "bg-gray-300"
+        return "bg-gray-800"
       default:
         return "bg-gray-900"
     }
