@@ -42,6 +42,10 @@ export default function Dashboard({ currentUser, currentWorkspace, onLogout }) {
     onLogout()
     navigate("/login")
   }
+  const handlellogout = () => {
+    onLogout()
+    navigate("/login")
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-100">
