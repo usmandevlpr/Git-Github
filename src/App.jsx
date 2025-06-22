@@ -1,6 +1,4 @@
 "use client"
-"use client"
-"use client"
 
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"
 import { useState, useEffect } from "react"
@@ -51,9 +49,7 @@ export default function App() {
   useEffect(() => {
     if (currentUser) localStorage.setItem("currentUser", JSON.stringify(currentUser))
   }, [currentUser])
-  useEffect(() => {
-    if (currentUser) localStorage.setItem("currentUser", JSON.stringify(currentUser))
-  }, [currentUser])
+
   useEffect(() => {
     if (currentWorkspace) localStorage.setItem("currentWorkspace", JSON.stringify(currentWorkspace))
   }, [currentWorkspace])
