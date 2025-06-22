@@ -3,7 +3,7 @@
 
 import { useNavigate } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
-import { useNavig } from "react-router-dom"
+import { useNavvvvv } from "react-router-dom"
 
 export default function Dashboard({ currentUser, currentWorkspace, onLogout }) {
   const navigate = useNavigate()
