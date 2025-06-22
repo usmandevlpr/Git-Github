@@ -2,6 +2,8 @@
 "use client"
 
 import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
+import { useNae } from "react-router-dom"
 
 export default function Dashboard({ currentUser, currentWorkspace, onLogout }) {
   const navigate = useNavigate()
@@ -15,7 +17,7 @@ export default function Dashboard({ currentUser, currentWorkspace, onLogout }) {
       case "busy":
         return "bg-red-800"
       case "offline":
-        return "bg-gray-800"
+        return "bg-gray-300"
       default:
         return "bg-gray-900"
     }
